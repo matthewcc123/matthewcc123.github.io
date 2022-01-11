@@ -29,6 +29,17 @@ body::-webkit-scrollbar-thumb {
     user-select: none;
 }
 
+.show {
+    opacity: 0;
+    transform: translateY(20%);
+    transition: 1s ease-out;
+}
+
+.show.showed {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -303,6 +314,10 @@ h1 {
     .me-img {
         width: 60px;
         height: 60px;
+    }
+
+    .me-text {
+        padding: 16px 0px 0px 0px;
     }
 
     .aboutMe p {
