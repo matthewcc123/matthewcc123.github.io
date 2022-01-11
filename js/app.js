@@ -49,6 +49,29 @@ function App()
         $("html, body").animate({ scrollTop: $(href).offset().top - 120}, 1000);
       });
 
+    //Observer
+    const showlist = document.querySelectorAll('.show');
+
+    const appearOptions = {
+        threshold: 0,
+        rootMargin: "0px 0px -200px 0px"
+    };
+
+    const appearOnScroll = new IntersectionObserver(function (entries, appearOnScroll) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("showed");
+                appearOnScroll.unobserve(entry.target);
+            } else {
+                return;
+            }
+        });
+    }, appearOptions);
+
+    showlist.forEach(show => {
+        appearOnScroll.observe(show);
+    });
+
 }
 
 App();
