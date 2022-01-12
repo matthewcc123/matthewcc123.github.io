@@ -31,7 +31,7 @@ body::-webkit-scrollbar-thumb {
 
 .show {
     opacity: 0;
-    transform: translateY(20%);
+    transform: translateY(5%);
     transition: 1s ease-out;
 }
 
