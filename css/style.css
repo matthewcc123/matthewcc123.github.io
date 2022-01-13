@@ -342,7 +342,8 @@ h1 {
         padding: 16px 0px 0px 0px;
     }
 
-    .aboutMe p .aboutMe li {
+    .aboutMe p,
+    .aboutMe li {
         width: 100%;
     }
 
