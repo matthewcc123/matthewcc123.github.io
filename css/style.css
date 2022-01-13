@@ -76,6 +76,14 @@ nav a:hover {
     height: 10vh;
 }
 
+.download {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0066ff;
+    text-decoration: none;
+    padding: 0 8px;
+}
+
 section {
 
     position: relative;
@@ -194,6 +202,10 @@ h1 {
     transform: scale(1.05);
 }
 
+.youtube:hover {
+    transform: scale(1);
+}
+
 .link-game {
     margin: 12px;
 
@@ -244,6 +256,14 @@ h1 {
     transition: transform .4s ease-in-out;
 
     margin: 12px;
+}
+
+.youtube {
+    width: 80%;
+    max-width: 640px;
+    height: 360px;
+
+    border-radius: 12px;
 }
 
 .art-box img {
