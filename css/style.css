@@ -96,7 +96,8 @@ section {
 
 }
 
-p {
+p,
+li {
     font-size: 16px;
 }
 
@@ -146,7 +147,8 @@ h1 {
     letter-spacing: 3px;
 }
 
-.aboutMe p {
+.aboutMe p,
+.aboutMe li {
 
     width: 80%;
     text-align: justify;
@@ -340,7 +342,7 @@ h1 {
         padding: 16px 0px 0px 0px;
     }
 
-    .aboutMe p {
+    .aboutMe p .aboutMe li {
         width: 100%;
     }
 
@@ -349,7 +351,8 @@ h1 {
         font-size: 15px;
     }
 
-    p {
+    p,
+    li {
         font-size: 12px;
     }
 
