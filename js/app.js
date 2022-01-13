@@ -45,9 +45,16 @@ function App()
 
     //Scroller
     $(".nav-buttons a").on("click", function (e) {
-        e.preventDefault();
         const href = $(this).attr("href");
-        $("html, body").animate({ scrollTop: $(href).offset().top - 120}, 1000);
+        const string = href.substring(0,1)
+
+        if (string == "#")
+        {
+            e.preventDefault();
+            $("html, body").animate({ scrollTop: $(href).offset().top - 120}, 1000);
+        }
+        
+        
       });
 
     //Observer
