@@ -125,6 +125,18 @@ h1 {
     z-index: -10;
 }
 
+.otr2021 {
+    background: url(../img/game-otr2021/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.otr3d {
+    background: url(../img/game-otr3d/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .me-text {
     width: auto;
     padding: 16px 0px 0px 32px;
