@@ -367,6 +367,17 @@ a
 
 @media screen and (max-width: 768px) {
 
+    .profile-nav
+    {
+        padding-top: 0;
+    }
+
+    .nav-btn
+    {
+        width: 45px;
+        height: 45px;
+        font-size: 1.5rem;
+    }
 
     .profile-wrapper
     {
