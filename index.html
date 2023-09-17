@@ -4,147 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/lightbox.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <script src="https://kit.fontawesome.com/7d497d86e1.js" crossorigin="anonymous"></script>
-    <title>Matthew Cahyadi - Personal Website</title>
-    <link rel="icon" href="./img/icon.png" type="image/icon type">
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQ5BLRE3YC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-CQ5BLRE3YC');
-    </script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="icon" href="Resources/Images/Icon.png" type="image/icon type">
+    <title>Matthew Cahyadi - Welcome</title>
 </head>
 <body>
-    <nav>
-        <div class="title">
-            <p class="notTouchable">matthew_cc</p>
-        </div>
-        <div class="nav-buttons">
-            <a href="#aboutMe" class="nButton nScroll">About Me</a>
-            <a href="#games" class="nButton nScroll">Games</a>
-            <a href="#art" class="nButton nScroll">Digital Art</a>
-            <a href="#3d" class="nButton nScroll">3D Model</a>
-            <a href="#web" class="nButton nScroll">Web Design</a>
-        </div>
-        <div class="burger">
-            <i class="fas fa-bars"></i>
-        </div>
-    </nav>
-    <div class="nav-spacing"></div>
-    <section class="aboutMe show" id="aboutMe">
-        <div class="bg"></div>
-        <h1>MATTHEW CAHYADI</h1>
-        <div class="me-box">
-            <img src="./img/me.png" class="me-img">
-            <div class="me-text">
-                <p>Hi! I'm Matt. I started game development as a hobby. Aside from game development, I also enjoy doing a bit of digital art and I'm a content creator on YouTube making Minecraft tutorial videos.
-                    <br><br>Please feel free to check out my work!
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="links show"> 
-        <h1>YOUTUBE</h1>
-        <div class="link-container">
-
-            <div class="link-box">
-                <a href="https://www.youtube.com/channel/UCEzw58wi4M9DhGz16ummxgw"><img src="./img/link-icon/itchio.png"></a>
-            </div>
-            <div class="link-box">
-                <a href="https://www.youtube.com/c/Myeeep"><img src="./img/link-icon/youtube.png"></a>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="games show" id="games"> 
-        <h1>GAMES</h1>
-        <div class="link-container">
-
-            <div class="link-game">
-                <div class="link-game-img">
-                    <a href="https://matthew-cc.itch.io/broken-world"><img src="./img/games-thumb/bwr.png"></a>
-                </div>
-                <p>Broken World</p>
-            </div>
-            <div class="link-game">
-                <div class="link-game-img">
-                    <a href="https://matthew-cc.itch.io/on-the-road"><img src="./img/games-thumb/otr.png"></a>
-                </div>
-                <p>On The Road (Original)</p>
-            </div>
-            <div class="link-game">
-                <div class="link-game-img">
-                    <a href="game-otr3d.html"><img src="./img/games-thumb/otr3d.png"></a>
-                </div>
-                <p>On The Road (Unity3D)</p>
-            </div>
-            <div class="link-game">
-                <div class="link-game-img">
-                    <a href="game-otr2021.html"><img src="./img/games-thumb/otr21.png"></a>
-                </div>
-                <p>On The Road! (2021 WIP)</p>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="art show" id="art">  
-        <h1>DIGITAL ART</h1>
-        <div class="art-container">
-            <div class="art-box"><a href="./img/dig-art/hd/john_final.jpg" data-lightbox="Digital Art"><img src="./img/dig-art/john_final.jpg"></a></div>
-            <div class="art-box"><a href="./img/dig-art/hd/workout.jpg" data-lightbox="Digital Art"><img src="./img/dig-art/workout.jpg"></a></div>
-            <div class="art-box"><a href="./img/dig-art/hd/mage.jpg" data-lightbox="Digital Art"><img src="./img/dig-art/mage.jpg"></a></div>
-            <div class="art-box"><a href="./img/dig-art/hd/illust.jpg" data-lightbox="Digital Art"><img src="./img/dig-art/illust.jpg"></a></div>
-            <div class="art-box"><a href="./img/dig-art/hd/nody.jpg" data-lightbox="Digital Art"><img src="./img/dig-art/nody.jpg"></a></div>
-        </div>
-    </section>
-
-    <section class="art show" id="3d">  
-        <h1>3D MODEL</h1>
-        <div class="art-container">
-            <div class="art-box"><a href="./img/3d-model/hd/mini.png" data-lightbox="3D Models"><img src="./img/3d-model/mini.png"></a></div>
-            <div class="art-box"><a href="./img/3d-model/hd/207.png" data-lightbox="3D Models"><img src="./img/3d-model/207.png"></a></div>
-            <div class="art-box"><a href="./img/3d-model/hd/swift.png" data-lightbox="3D Models"><img src="./img/3d-model/swift.png"></a></div>
-            <div class="art-box"><a href="./img/3d-model/hd/s2000.png" data-lightbox="3D Models"><img src="./img/3d-model/s2000.png"></a></div>
-        </div>
-    </section>
-
-    <section class="webD show" id="web"> 
-        <h1>WEB DESIGN</h1>
-        <div class="link-container">
-
-            <div class="link-web">
-                <a href="http://jnsbodyrepair.com/"><img src="./img/web-thumb/web.jpg"></a>
-            </div>
-
-        </div>
-    </section>
-
     
+    <div class="content-overlay">
+        <div class="content-window">
+            <i class="content-close-btn"><ion-icon name="close-circle"></ion-icon></i>
+            <h1 class="content-title"></h1>
+            <h2 class="content-sub"></h2>
+            <div class="content-content">
+            </div>
+        </div>
+    </div>
 
-    <div class="nav-spacing"></div>
+    <div class="page-wrapper">
 
-    <section class="contactMe">
-        <h1>CONTACT ME</h1>
-        <p><i class="fas fa-envelope"></i>&nbsp&nbsp matthew_cc@outlook.com</p>
-    </section>
+        <section class="page" id="profile">
 
-    <div class="nav-spacing"></div>
+            <section id="aurora1"></section>
+            <section id="aurora2"></section>
 
-    <script src="./js/lightbox.js"></script>
+            <div class="page-content">
+    
+                <div class="profile-wrapper">
+                    <div class="profile-picture"></div>
+                    <div class="profile-content">
+                        <p class="profile-greet">Hello, i'm</p>
+                        <h1 class="profile-name">Matthew Cahyadi</h1>
+                        <p class="profile-title">Game Developer, 2D Artist, YouTuber</p>
+                        <hr>
+                        <div class="profile-nav">
+                            <a href="#game">
+                                <div class="nav-btn game-bg"><ion-icon name="game-controller-outline"></ion-icon></div>
+                            </a>
+                            <a href="#project">
+                                <div class="nav-btn code-bg"><ion-icon name="code-slash-outline"></ion-icon></ion-icon></div>
+                            </a>
+                            <a href="#art">
+                                <div class="nav-btn art-bg"><ion-icon name="brush-outline"></ion-icon></ion-icon></div>
+                            </a>
+                            <a href="#yt">
+                                <div class="nav-btn yt-bg"><ion-icon name="logo-youtube"></ion-icon></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    
+        <section class="page" id="game">
+            <div class="page-content">
+    
+                <h1 class="page-title">Games</h1>
+                <hr>
+                <div class="grid-list" id="game-list">
+                </div>
+    
+            </div>
+        </section>
+
+        <section class="page" id="project">
+            <div class="page-content">
+    
+                <h1 class="page-title">Projects</h1>
+                <hr>
+                <div class="grid-list" id="project-list">
+                </div>
+    
+            </div>
+        </section>
+
+        <section class="page" id="art">
+            <div class="page-content">
+    
+                <h1 class="page-title">Arts</h1>
+                <hr>
+                <div class="grid-list" id="art-list">
+                </div>
+    
+            </div>
+        </section>
+
+    </div>
+
 </body>
-<script src="./js/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/app.js"></script>
 </html>
