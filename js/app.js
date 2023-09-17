@@ -160,6 +160,17 @@ var artList = [
     {'id' : '207'},
 ]
 
+var ytList = [
+    {
+        'id' : 'Myeeep',
+        'link' : 'https://www.youtube.com/c/Myeeep',
+    },
+    {
+        'id' : 'MepLab',
+        'link' : 'https://www.youtube.com/channel/UCEzw58wi4M9DhGz16ummxgw',
+    },
+]
+
 //Content Viewer
 var contentOverlay = document.querySelector(".content-overlay");
 var contentWindow = document.querySelector(".content-window");
@@ -197,6 +208,16 @@ $(document).ready(function() {
         </a>`;
     
         document.querySelector("#art-list").innerHTML += row;
+
+    }
+
+    for (var i in ytList)
+    {
+        var row = `<a class="card" href="${ytList[i].link}" target="_blank">
+        <img src="Resources/Images/Youtube/${ytList[i].id}/thumb.png">
+        </a>`;
+    
+        document.querySelector("#yt-list").innerHTML += row;
 
     }
 
