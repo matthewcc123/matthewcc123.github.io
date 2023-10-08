@@ -1,5 +1,27 @@
 var gameList = [
     {
+        'id' : 'TDP',
+        'name':'Top Down Project',
+        'sub' : 'Game Development',
+        'content' : `<div class="slider-wrapper">
+        <a class="slider-item" href="Resources/Images/Games/TDP/Screenshot.png" data-lightbox="TDP"><img src="Resources/Images/Games/TDP/Screenshot.png"></a>
+        <a class="slider-item" href="Resources/Images/Games/TDP/Screenshot-2.png" data-lightbox="TDP"><img src="Resources/Images/Games/TDP/Screenshot-2.png"></a>
+        <a class="slider-item" href="Resources/Images/Games/TDP/Screenshot-3.png" data-lightbox="TDP"><img src="Resources/Images/Games/TDP/Screenshot-3.png"></a>
+        </div>
+        <br><br>
+        <p>
+        This is my top-down shooter project when I'm in high school in order to learn more about Spine2D, Raycasting, Dynamic Audio, Multiplayer in <b>Game Maker Studio 1.4.</b>
+        <br><br>
+        This game is made to be multiplayer only, so it's just like CSGO in a deathmatch gamemode. There are various primary weapons you can use; each of them has its own unique fire rate, damage, and recoil.
+        <br><br>
+        Feel free to try.
+        </p>
+        <br><br>
+        <a href="https://matthew-cc.itch.io/top-down-project" target="_blank">
+        <button class="download-btn">Itch.io</button>
+        </a>`,
+    },
+    {
         'id' : 'BWRE',
         'name':'Broken World',
         'sub' : 'Game Development',
@@ -19,7 +41,7 @@ var gameList = [
         </p>
         <br><br>
         <a href="https://matthew-cc.itch.io/broken-world" target="_blank">
-        <button class="download-btn">Download</button>
+        <button class="download-btn">Itch.io</button>
         </a>`,
     },
     {
@@ -43,7 +65,7 @@ var gameList = [
         </p>
         <br><br>
         <a href="https://matthew-cc.itch.io/on-the-road" target="_blank">
-        <button class="download-btn">Download</button>
+        <button class="download-btn">Itch.io</button>
         </a>`,
     },
     {
@@ -68,7 +90,7 @@ var gameList = [
         </p>
         <br><br>
         <a href="https://drive.google.com/drive/folders/1iobR9YfoSiMyyEWjFTFjDaL77LLDvIIZ?usp=sharing" target="_blank">
-        <button class="download-btn">Download</button>
+        <button class="download-btn">Google Drive</button>
         </a>`,
     },
     {
@@ -95,7 +117,7 @@ var gameList = [
         </p>
         <br><br>
         <a href="https://drive.google.com/drive/folders/1YxEcj2cvBEJ1cn_Gra97-j8azwwx3fgX?usp=sharing" target="_blank">
-        <button class="download-btn">Download</button>
+        <button class="download-btn">Google Drive</button>
         </a>`,
     }
 ]
