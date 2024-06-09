@@ -349,6 +349,7 @@ a
     text-decoration: none;
 }
 
+
 .download-btn
 {
     font-size: 1rem;
@@ -435,6 +436,17 @@ a
     .content-sub
     {
         font-size: 1rem;
+    }
+
+    .content-content .desc,
+    .download-btn
+    {
+        font-size: .875rem;
+    }
+
+    .slider-item img 
+    {
+        height: 270px;
     }
 
     .profile-nav
