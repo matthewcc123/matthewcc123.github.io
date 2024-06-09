@@ -60,6 +60,11 @@ hr
     width: 100%;
 }
 
+.page-backdrop
+{
+    background: rgba(150, 158, 175, 0.1);
+}
+
 .page-content
 {
     width: min(1280px,100vw);
