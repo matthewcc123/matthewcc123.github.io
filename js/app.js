@@ -8,15 +8,25 @@ var gameList = [
         <a class="slider-item" href="Resources/Images/Games/TDP/Screenshot-2.png" data-lightbox="TDP"><img src="Resources/Images/Games/TDP/Screenshot-2.png"></a>
         <a class="slider-item" href="Resources/Images/Games/TDP/Screenshot-3.png" data-lightbox="TDP"><img src="Resources/Images/Games/TDP/Screenshot-3.png"></a>
         </div>
-        <br><br>
-        <p>
-        This is my top-down shooter project when I'm in high school in order to learn more about Spine2D, Raycasting, Dynamic Audio, Multiplayer in <b>Game Maker Studio 1.4.</b>
-        <br><br>
-        This game is made to be multiplayer only, so it's just like CSGO in a deathmatch gamemode. There are various primary weapons you can use; each of them has its own unique fire rate, damage, and recoil.
-        <br><br>
-        Feel free to try.
-        </p>
-        <br><br>
+        <div class="desc">
+        <p>This is a multiplayer-only top-down shooter game I developed in high school to learn more about various game development technologies and techniques.</p>
+        <br>
+        <h3>Technologies and Features:</h3>
+        <ul>
+            <li><strong>Spine2D:</strong> Implemented for advanced character animations.</li>
+            <li><strong>Raycasting:</strong> Used to enhance shooting mechanics and line-of-sight calculations.</li>
+            <li><strong>Dynamic Audio:</strong> Integrated for a more immersive sound experience.</li>
+            <li><strong>Multiplayer:</strong> Built using Made with <strong>Game Maker Studio: Professional 1.4</strong>, focusing on a competitive, fast-paced deathmatch mode similar to CS:GO.</li>
+        </ul>
+        <br>
+        <h3>Gameplay Highlights:</h3>
+        <ul>
+            <li><strong>Deathmatch Mode:</strong> Players compete in a high-intensity deathmatch, emphasizing quick reflexes and strategic gameplay.</li>
+            <li><strong>Diverse Arsenal:</strong> A variety of primary weapons, each with unique attributes like fire rate, damage, and recoil, offering different playstyles and strategies.</li>
+        </ul>
+        <br>
+        <p>Feel free to try the game and experience the blend of competitive multiplayer action and advanced game mechanics.</p>
+        </div>
         <a href="https://matthew-cc.itch.io/top-down-project" target="_blank">
         <button class="download-btn">Itch.io</button>
         </a>`,
@@ -31,15 +41,18 @@ var gameList = [
         <a class="slider-item" href="Resources/Images/Games/BWRE/Screenshot-3.png" data-lightbox="BWRE"><img src="Resources/Images/Games/BWRE/Screenshot-3.png"></a>
         <a class="slider-item" href="Resources/Images/Games/BWRE/Screenshot-4.png" data-lightbox="BWRE"><img src="Resources/Images/Games/BWRE/Screenshot-4.png"></a>
         </div>
-        <br><br>
-        <p>
-        Hack n Slash, Action RPG game. One day, our hero just woke up in the middle of a forest full of monsters, trying to find out what happened.
-        <br><br>
-        This is just a personal project on Highschool and publish it on Itch.io
-        <br><br>
-        This game made with <b>Game Maker Studio : Professional</b> and the Asset made with <b>Photoshop.</b>
-        </p>
-        <br><br>
+        <div class="desc">
+        <p>"Broken World" is an action-packed hack n' slash RPG adventure that throws you into a fractured realm filled with monsters and mysteries. Wake up in a dense forest overrun by creatures, and embark on a quest to unravel the truth behind the chaos.</p>
+        <br>
+        <h3>Armed with three skills:</h3>
+        <ul>
+            <li><strong>Focus Mode:</strong> Slow down time to gain an edge in combat. Land precise strikes and execute strategic maneuvers against your foes.</li>
+            <li><strong>Blink:</strong> Throw your sword to a distant location and teleport to its position. Use this skill to swiftly evade danger and outmaneuver enemies.</li>
+            <li><strong>Throwing Bombs:</strong> Collect explosive projectiles from healing spots. Rain devastation on your enemies from a safe distance.</li>
+        </ul>
+        <br>
+        <p>Made with <strong>Game Maker Studio: Professional</strong>, "Broken World" is the result of years of dedication. Immerse yourself in a world filled with secrets, ancient ruins, and formidable adversaries.</p>
+        </div>
         <a href="https://matthew-cc.itch.io/broken-world" target="_blank">
         <button class="download-btn">Itch.io</button>
         </a>`,
@@ -55,15 +68,11 @@ var gameList = [
         <a class="slider-item" href="Resources/Images/Games/OTR/Screenshot-4.png" data-lightbox="OTR"><img src="Resources/Images/Games/OTR/Screenshot-4.png"></a>
         <a class="slider-item" href="Resources/Images/Games/OTR/Screenshot-5.png" data-lightbox="OTR"><img src="Resources/Images/Games/OTR/Screenshot-5.png"></a>
         </div>
-        <br><br>
-        <p>
-        A Top Down Arcade Racing Game, you have to drive your car not off the road at a constant speed with drifting at high speed.
-        <br><br>
-        This is just a personal project on Highschool and publish it on Itch.io
-        <br><br>
-        This game made with <b>Game Maker Studio : Professional</b> and the Asset made with <b>Photoshop.</b>
-        </p>
-        <br><br>
+        <div class="desc">
+<p><strong>"On The Road"</strong> is an arcade game where you must keep your car on the road for as long as possible, mastering the art of drifting and speed control. Developed with <strong>Game Maker Studio: Professional.</strong></p>
+<br>
+<p>Get ready to feel the power of drifting and speed as you navigate through the twists and turns. Can you stay on track?</p>
+        </div>
         <a href="https://matthew-cc.itch.io/on-the-road" target="_blank">
         <button class="download-btn">Itch.io</button>
         </a>`,
@@ -80,15 +89,15 @@ var gameList = [
         <a class="slider-item" href="Resources/Images/Games/OTR2/Screenshot-5.png" data-lightbox="OTR2"><img src="Resources/Images/Games/OTR2/Screenshot-5.png"></a>
         <a class="slider-item" href="Resources/Images/Games/OTR2/Screenshot-6.png" data-lightbox="OTR2"><img src="Resources/Images/Games/OTR2/Screenshot-6.png"></a>
         </div>
-        <br><br>
-        <p>
-        This game is made to compete in <b>COMPFEST 11: Indie Game Ignite.</b>
-        <br><br>
-        This is a newer version than the original, there are a lot of new features, especially 3D graphics. Now the game has currency, and you can buy a car or choose a map you like.
-        <br><br>
-        This game made with <b>Unity3D</b> and the Asset made with <b>Blender, Photoshop.</b>
-        </p>
-        <br><br>
+        <div class="desc">
+        <p>The enhanced version of "On The Road," now entering <strong>COMPFEST 11: Indie Game Ignite!</strong></p>
+        <ul>
+        <br>
+        <li><strong>New 3D Graphics:</strong> Experience the race in stunning 3D, crafted with Blender and Photoshop.</li>
+        <li><strong>Exciting Additions:</strong> Explore new features like currency, car selection, and customizable maps.</li>
+        <li><strong>Powered by Unity3D:</strong> Enjoy seamless gameplay and immersive environments.</li>
+        </ul>
+        </div>
         <a href="https://drive.google.com/drive/folders/1iobR9YfoSiMyyEWjFTFjDaL77LLDvIIZ?usp=sharing" target="_blank">
         <button class="download-btn">Google Drive</button>
         </a>`,
@@ -107,15 +116,16 @@ var gameList = [
         <a class="slider-item" href="Resources/Images/Games/OTR3/Screenshot-7.png" data-lightbox="OTR3"><img src="Resources/Images/Games/OTR3/Screenshot-7.png"></a>
         <a class="slider-item" href="Resources/Images/Games/OTR3/Screenshot-8.png" data-lightbox="OTR3"><img src="Resources/Images/Games/OTR3/Screenshot-8.png"></a>
         </div>
-        <br><br>
-        <p>
-        <b>On The Road!</b> a remake version of <b>On The Road (3D).</b>
-        <br><br>
-        Decided to remake the game to bring back the original gameplay physics and also upgrade the graphic with optimization so the game can run smoother on low-end devices.
-        <br><br>
-        This game made with <b>Unity 3D</b> and the Asset made with <b>Blender, Photoshop, Illustrator, and Figma</b> for UI Design.
-        </p>
-        <br><br>
+        <div class="desc">
+        <p><b>On The Road!</b> a remake version of <b>On The Road (3D).</b></p>
+        <br>
+        <p>Experience the nostalgia of the original "On The Road" with a modern twist in "On The Road! (2021)"!</p>
+        <ul>
+            <li><strong>Classic Gameplay, Modern Feel:</strong> Enjoy the familiar gameplay physics of the original game, now with upgraded graphics for a fresh gaming experience.</li>
+            <li><strong>Optimized Performance:</strong> With enhanced optimization, the game runs smoothly on all devices, even low-end ones, ensuring a seamless gaming experience.</li>
+            <li><strong>Crafted with Care:</strong> Developed using Unity 3D, with assets created using Blender, Photoshop, Illustrator, and Figma for UI design, "On The Road Remake" combines creativity and technical prowess.</li>
+        </ul>
+        </div>
         <a href="https://drive.google.com/drive/folders/1YxEcj2cvBEJ1cn_Gra97-j8azwwx3fgX?usp=sharing" target="_blank">
         <button class="download-btn">Google Drive</button>
         </a>`,
@@ -134,14 +144,12 @@ var projectList = [
         <a class="slider-item" href="Resources/Images/Projects/JNS/Screenshot-4.jpeg" data-lightbox="JNS"><img src="Resources/Images/Projects/JNS/Screenshot-4.jpeg"></a>
         <a class="slider-item" href="Resources/Images/Projects/JNS/Screenshot-5.jpeg" data-lightbox="JNS"><img src="Resources/Images/Projects/JNS/Screenshot-5.jpeg"></a>
         </div>
-        <br><br>
-        <p>
-        PT. JNS Jaya Motor is a workshop that handles repairs or damage to the vehicle body as well as discoloration and repainting.
-        <br><br>
-        The website designed using <b>Adobe Illustrator and Photoshop</b>, then convert the design to the <b>HTML5, CSS, and JavaScript</b> 
-        for the animations and functions with <b>Visual Studio Code.<b/>
-        </p>
-        <br><br>
+        <div class="desc">
+        <p>PT. JNS Jaya Motor is your trusted workshop for vehicle body repairs, discoloration treatment, and repainting services.</p>
+        <br>
+        <h3>Web Development:</h3>
+        <p>Using Adobe Illustrator and Photoshop, I designed a visually appealing and user-friendly interface. Then, with HTML5, CSS, and JavaScript in Visual Studio Code, I brought the design to life, adding animations and functionalities to enhance your browsing experience.</p>
+        </div>
         <a href="http://jnsbodyrepair.com/" target="_blank">
         <button class="download-btn">Website</button>
         </a>`,
@@ -151,20 +159,59 @@ var projectList = [
         'name':`Matt's Tools`,
         'sub' : '.NET MAUI Blazor Project',
         'content' : `<div class="slider-wrapper">
-        <a class="slider-item" href="Resources/Images/Projects/MT/Screenshot.jpg" data-lightbox="JNS"><img src="Resources/Images/Projects/MT/Screenshot.jpg"></a>
-        <a class="slider-item" href="Resources/Images/Projects/MT/Screenshot-2.jpg" data-lightbox="JNS"><img src="Resources/Images/Projects/MT/Screenshot-2.jpg"></a>
-        <a class="slider-item" href="Resources/Images/Projects/MT/Screenshot-3.jpg" data-lightbox="JNS"><img src="Resources/Images/Projects/MT/Screenshot-3.jpg"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MT/Screenshot.jpg" data-lightbox="MT"><img src="Resources/Images/Projects/MT/Screenshot.jpg"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MT/Screenshot-2.jpg" data-lightbox="MT"><img src="Resources/Images/Projects/MT/Screenshot-2.jpg"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MT/Screenshot-3.jpg" data-lightbox="MT"><img src="Resources/Images/Projects/MT/Screenshot-3.jpg"></a>
         </div>
-        <br><br>
-        <p>
-        Tools I made for better quality of life for my work as <b>Accounts Payable.</b>
-        <br><br>
-        The tools currently are only for merging Unilever Invoices with Tax Invoices and extracting JSON from Rossum using their APIs, but there will be more tools in development.
-        <br><br>
-        At first, I made a prototype with <b>WinForm</b>, then remade it into <b>.NET MAUIBlazor Project</b> for better UI and UX
-        </p>
-        <br><br>
+        <div class="desc">
+        <p>Solutions designed to elevate my work processes and improve overall efficiency.</p>
+        <br>
+        <h3>Current Tools:</h3>
+        <ul>
+            <li><strong>Invoice Merging:</strong> Seamlessly merge Invoices with Tax Invoices for simplified processing.</li>
+            <li><strong>JSON Extraction from Rossum:</strong> Utilize Rossum's APIs to extract JSON data efficiently, enhancing data management capabilities.</li>
+        </ul>
+        <br>
+        <h3>Development Journey:</h3>
+        <p>Starting with a WinForm prototype, I transitioned to a .NET MAUIBlazor Project to elevate the user interface and experience, ensuring a seamless and intuitive workflow.</p>
+        </div>
         <a href="https://github.com/matthewcc123/MattTools" target="_blank">
+        <button class="download-btn">GitHub</button>
+        </a>`,
+    },
+    {
+        'id' : 'MTWUI3',
+        'name':`Matt's Tools WinUI3`,
+        'sub' : 'WinUI 3 Project',
+        'content' : `<div class="slider-wrapper">
+        <a class="slider-item" href="Resources/Images/Projects/MTWUI3/Screenshot.jpg" data-lightbox="MTWUI3"><img src="Resources/Images/Projects/MTWUI3/Screenshot.jpg"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MTWUI3/Screenshot-2.jpg" data-lightbox="MTWUI3"><img src="Resources/Images/Projects/MTWUI3/Screenshot-2.jpg"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MTWUI3/Screenshot-3.jpg" data-lightbox="MTWUI3"><img src="Resources/Images/Projects/MTWUI3/Screenshot-3.jpg"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MTWUI3/Screenshot-4.jpg" data-lightbox="MTWUI3"><img src="Resources/Images/Projects/MTWUI3/Screenshot-4.jpg"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MTWUI3/Screenshot-5.jpg" data-lightbox="MTWUI3"><img src="Resources/Images/Projects/MTWUI3/Screenshot-5.jpg"></a>
+        </div>
+        <div class="desc">
+        <h3>Purpose:</h3>
+        <p>To enhance efficiency and quality of life in my daily work tasks.</p>
+        <br>
+        <h3>Key Features:</h3>
+        <ul>
+            <li><strong>Invoice Merging:</strong> Combines Unilever Invoices with Tax Invoices.</li>
+            <li><strong>Data Extraction:</strong> Uses Rossum APIs to extract data in JSON format.</li>
+            <li><strong>PDF Editing:</strong> Organize and merge PDFs.</li>
+            <li><strong>Dark and Light Mode:</strong> Toggle between themes for user comfort.</li>
+        </ul>
+        <br>
+        <h3>Technologies:</h3>
+        <ul>
+            <li><strong>Framework:</strong> WinUI 3</li>
+            <li><strong>UI/UX Enhancements:</strong> Modern, fluent design with improved performance and Windows integration.</li>
+        </ul>
+        <br>
+        <h3>Evolution:</h3>
+        <p>Initially built with WinForm for basic functionality, the project evolved into a .NET MAUI Blazor application for enhanced UI/UX, and finally into WinUI 3, adding features like dark/light mode and PDF editing for a comprehensive, user-friendly tool.</p>
+    </div>
+        <a href="https://github.com/matthewcc123/MattToolsWinUI3" target="_blank">
         <button class="download-btn">GitHub</button>
         </a>`,
     }
