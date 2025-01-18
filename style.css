@@ -13,6 +13,11 @@ h1, h3, h4 {
   }
 
 
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+}
+
 h2, strong {
     color: #000000cb;
 }
@@ -171,6 +176,18 @@ hr
     padding-top: 12px;
     display: flex;
     gap: 1rem;
+}
+
+.about-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-container
+{
+    padding-bottom: 32px;
 }
 
 .nav-btn
@@ -456,6 +473,10 @@ a
         transform: none;
     }
 
+    h2 {
+        font-size: 1rem;
+    }
+    
     .profile-name,
     .content-title,
     .page-title
@@ -473,8 +494,8 @@ a
     .content-content .desc,
     .download-btn
     {
-        font-size: .5rem;
-        line-height: 1rem;
+        font-size: .75rem;
+        line-height: 1.1rem;
     }
 
     .content-content .desc
@@ -494,7 +515,7 @@ a
 
     .slider-item img 
     {
-        height: 128px;
+        height: 40vw;
     }
 
     .profile-nav
