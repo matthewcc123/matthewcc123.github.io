@@ -214,7 +214,76 @@ var projectList = [
         <a href="https://github.com/matthewcc123/MattToolsWinUI3" target="_blank">
         <button class="download-btn">GitHub</button>
         </a>`,
+    },
+    {
+        'id' : 'MONEY',
+        'name':`Improving Money+`,
+        'sub' : 'UI/UX Improvement Case Study',
+        'content' : `<div class="slider-wrapper">
+        <a class="slider-item" href="Resources/Images/Projects/MONEY/1.png" data-lightbox="MONEY"><img src="Resources/Images/Projects/MONEY/1.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MONEY/2.png" data-lightbox="MONEY"><img src="Resources/Images/Projects/MONEY/2.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MONEY/3.png" data-lightbox="MONEY"><img src="Resources/Images/Projects/MONEY/3.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MONEY/4.png" data-lightbox="MONEY"><img src="Resources/Images/Projects/MONEY/4.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MONEY/5.png" data-lightbox="MONEY"><img src="Resources/Images/Projects/MONEY/5.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MONEY/6.png" data-lightbox="MONEY"><img src="Resources/Images/Projects/MONEY/6.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/MONEY/7.png" data-lightbox="MONEY"><img src="Resources/Images/Projects/MONEY/7.png"></a>
+        </div>
+        <div class="desc">
+        <h3>Enhancing Money+ for a better and seamless user experience.</h3>
+        <p>Money+ personal finance management by offering a simple bookkeeping book, budget creation, goal setting, and spending habit monitoring in one easy-to-use platform.</p>
+        <br>
+        </div>
+        <a href="https://www.figma.com/proto/ciDZOFyQmRZvORrm0PpTmE/DC1---Money%2B---Matthew-Cahyadi?node-id=219-11267&t=SVzoQ0lVyfpA4IPf-1&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=1" target="_blank">
+        <button class="download-btn">Try Prototype</button>
+        </a>`,
+    },
+    {
+        'id' : 'PROJECTS',
+        'name':`Improving Projects.co.id`,
+        'sub' : 'UI/UX Improvement Case Study',
+        'content' : `<div class="slider-wrapper">
+        <a class="slider-item" href="Resources/Images/Projects/PROJECTS/1.png" data-lightbox="PROJECTS"><img src="Resources/Images/Projects/PROJECTS/1.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/PROJECTS/2.png" data-lightbox="PROJECTS"><img src="Resources/Images/Projects/PROJECTS/2.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/PROJECTS/3.png" data-lightbox="PROJECTS"><img src="Resources/Images/Projects/PROJECTS/3.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/PROJECTS/4.png" data-lightbox="PROJECTS"><img src="Resources/Images/Projects/PROJECTS/4.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/PROJECTS/5.png" data-lightbox="PROJECTS"><img src="Resources/Images/Projects/PROJECTS/5.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/PROJECTS/6.png" data-lightbox="PROJECTS"><img src="Resources/Images/Projects/PROJECTS/6.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/PROJECTS/7.png" data-lightbox="PROJECTS"><img src="Resources/Images/Projects/PROJECTS/7.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/PROJECTS/8.png" data-lightbox="PROJECTS"><img src="Resources/Images/Projects/PROJECTS/8.png"></a>
+        </div>
+        <div class="desc">
+        <h3>Elevating User Interface to Enhance User Experience & Boost Conversion Rates.</h3>
+        <p>Projects.co.id a marketplace platform connecting entrepreneurs, freelancers, and businesses. Users can offer and complete projects, as well as buy and sell digital products.</p>
+        <br>
+        </div>
+        <a href="https://www.figma.com/proto/N42oGpz39hbYmwQprArmh9/DC-2-%2F-Projects.co.id-%2F-Matthew-Cahyadi?node-id=139-3654&t=hNueB5mxEbvBniVA-1&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=1" target="_blank">
+        <button class="download-btn">Try Prototype</button>
+        </a>`,
+    },
+    {
+        'id' : 'IMAYA',
+        'name':`Improving Money+`,
+        'sub' : 'SaaS Case Study',
+        'content' : `<div class="slider-wrapper">
+        <a class="slider-item" href="Resources/Images/Projects/IMAYA/1.png" data-lightbox="IMAYA"><img src="Resources/Images/Projects/IMAYA/1.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/IMAYA/2.png" data-lightbox="IMAYA"><img src="Resources/Images/Projects/IMAYA/2.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/IMAYA/3.png" data-lightbox="IMAYA"><img src="Resources/Images/Projects/IMAYA/3.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/IMAYA/4.png" data-lightbox="IMAYA"><img src="Resources/Images/Projects/IMAYA/4.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/IMAYA/5.png" data-lightbox="IMAYA"><img src="Resources/Images/Projects/IMAYA/5.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/IMAYA/6.png" data-lightbox="IMAYA"><img src="Resources/Images/Projects/IMAYA/6.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/IMAYA/7.png" data-lightbox="IMAYA"><img src="Resources/Images/Projects/IMAYA/7.png"></a>
+        <a class="slider-item" href="Resources/Images/Projects/IMAYA/8.png" data-lightbox="IMAYA"><img src="Resources/Images/Projects/IMAYA/8.png"></a>
+        </div>
+        <div class="desc">
+        <h3>SaaS laboratory management with simple analytics, easy appointment scheduling, and efficient patient management.</h3>
+        <p>IMAYA Clinic offers innovative solutions that transform laboratory management systems, enabling healthcare providers to achieve higher levels of efficiency and service quality.</p>
+        <br>
+        </div>
+        <a href="https://www.figma.com/proto/Vsd0hOiOesZzHCuNeztYlW/DC3-%2F-Imaya-Clinic-CRM-%2F-Matthew-Cahyadi?node-id=177-8056&t=WxWsYf7B6o5jbrem-1&scaling=scale-down&content-scaling=fixed&show-proto-sidebar=1" target="_blank">
+        <button class="download-btn">Try Prototype</button>
+        </a>`,
     }
+    
 ]
 
 var artList = [
