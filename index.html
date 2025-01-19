@@ -4,169 +4,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="lightbox.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link rel="icon" href="Resources/Images/Icon.png" type="image/icon type">
+    <meta name="description" content="Matthew Cahyadi - Developer Portfolio showcasing skills in game development, software development, and UI/UX design.">
+    <meta name="keywords" content="Portfolio, Matthew Cahyadi, Game Developer, Web Designer, UI/UX">
+    <meta name="author" content="Matthew Cahyadi">
+
     <title>Matthew Cahyadi - Welcome</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..900&family=Plus+Jakarta+Sans:wght@200..800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="Resources/Images/Icon.png" type="image/png">
+
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQ5BLRE3YC"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-CQ5BLRE3YC');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CQ5BLRE3YC');
     </script>
-
 </head>
 <body>
-    
     <div class="content-overlay">
         <div class="content-window">
-            <i class="content-close-btn"><ion-icon name="close-circle"></ion-icon></i>
+            <i class="content-close-btn" aria-label="Close"><ion-icon name="close-circle"></ion-icon></i>
             <h1 class="content-title"></h1>
             <h2 class="content-sub"></h2>
-            <div class="content-content">
-            </div>
+            <div class="content-content"></div>
         </div>
     </div>
 
-    <div class="page-wrapper">
-
+    <main class="page-wrapper">
+        <!-- Profile Section -->
         <section class="page" id="profile">
-
-            <section id="aurora1"></section>
-            <section id="aurora2"></section>
+            <section id="aurora1" aria-hidden="true"></section>
+            <section id="aurora2" aria-hidden="true"></section>
 
             <div class="page-content">
-    
                 <div class="profile-wrapper">
-                    <div class="profile-picture"></div>
+                    <div class="profile-picture" role="img" aria-label="Profile picture of Matthew Cahyadi"></div>
                     <div class="profile-content">
-                        <p class="profile-greet">Hello, i'm</p>
+                        <p class="profile-greet">Hello, I'm</p>
                         <h1 class="profile-name">Matthew Cahyadi</h1>
                         <p class="profile-title">Creative Developer and Multimedia</p>
                         <hr>
-                        <div class="profile-nav">
-                            <a href="#game">
-                                <div class="nav-btn game-bg"><ion-icon name="game-controller-outline"></ion-icon></div>
-                            </a>
-                            <a href="#project">
-                                <div class="nav-btn code-bg"><ion-icon name="code-slash-outline"></ion-icon></ion-icon></div>
-                            </a>
-                            <a href="#art">
-                                <div class="nav-btn art-bg"><ion-icon name="brush-outline"></ion-icon></ion-icon></div>
-                            </a>
-                            <a href="#yt">
-                                <div class="nav-btn yt-bg"><ion-icon name="logo-youtube"></ion-icon></div>
-                            </a>
-                            <a href="https://www.linkedin.com/in/matthew-cahyadi-119277177/" target="_blank">
-                                <div class="nav-btn linkedin-bg"><ion-icon name="logo-linkedin"></ion-icon></div>
-                            </a>
-                        </div>
+                        <nav class="profile-nav" aria-label="Profile navigation">
+                            <a href="#game" class="nav-btn game-bg" aria-label="View Games"><ion-icon name="game-controller-outline"></ion-icon></a>
+                            <a href="#project" class="nav-btn code-bg" aria-label="View Projects"><ion-icon name="code-slash-outline"></ion-icon></a>
+                            <a href="#art" class="nav-btn art-bg" aria-label="View Arts"><ion-icon name="brush-outline"></ion-icon></a>
+                            <a href="#yt" class="nav-btn yt-bg" aria-label="YouTube"><ion-icon name="logo-youtube"></ion-icon></a>
+                            <a href="https://www.linkedin.com/in/matthew-cahyadi-119277177/" target="_blank" class="nav-btn linkedin-bg" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        </nav>
                     </div>
                 </div>
-    
             </div>
         </section>
 
+        <!-- About Section -->
         <section class="page" id="about">
-
             <div class="page-content">
-    
                 <div class="about-wrapper">
-                    <div>
+                    <article>
                         <h1 class="page-title">About Me</h1>
                         <hr>
-                        <div class="about-container">
-                            <h2>Hi i'm Matthew!</h2>
-                            <p>I am a developer and artist with skills in C# programming for .NET projects and Unity3D for making games. I can also create simple websites using HTML and CSS. In addition to programming, I make 2D and 3D art to bring life to games and apps. I combine technical and creative skills to build projects that look good and work well.</p>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h1 class="page-title">What can i do?</h1>
+                        <section class="about-container">
+                        <h2>Hi i'm Matthew!</h2>
+                        <p>I am a developer and artist with skills in C# programming for .NET projects and Unity3D for making games. I can also create simple websites using HTML and CSS. In addition to programming, I make 2D and 3D art to bring life to games and apps. I combine technical and creative skills to build projects that look good and work well.</p>
+                        </section>
+                    </article>
+                    <article>
+                        <h1 class="page-title">What I Can Do</h1>
                         <hr>
-                        <div class="about-container">
+                        <section class="about-container">
                             <h2>Game Development</h2>
-                            <p>Working with Unity3D and C# to create simple games, with asset creation using Blender and Photoshop.</p>
-                        </div>
-                        <div class="about-container">
+                            <p>Building games with Unity3D and C#, using Blender and Photoshop for assets.</p>
+                        </section>
+                        <section class="about-container">
                             <h2>Software Development</h2>
-                            <p>Creating simple software applications using .NET and WinUI, focusing on practical solutions and user-friendly interfaces.</p>
-                        </div>
-                        <div class="about-container">
+                            <p>Creating simple applications using .NET and WinUI with user-friendly interfaces.</p>
+                        </section>
+                        <section class="about-container">
                             <h2>UI/UX Design</h2>
                             <p>Designing user interfaces using Figma, focusing on clear and simple user experiences.</p>
-                        </div>
-                        <div class="about-container">
+                        </section>
+                        <section class="about-container">
                             <h2>Web Design</h2>
-                            <p>Building responsive websites using HTML, CSS, and JavaScript, turning designs into functional web pages.</p>
-                        </div>
-                    </div>
+                            <p>Turning designs into functional websites using HTML, CSS, and JavaScript.</p>
+                        </section>
+                    </article>
                 </div>
-                    
-
             </div>
-
         </section>
 
-    
+        <!-- Dynamic Content Sections -->
         <section class="page page-backdrop" id="game">
             <div class="page-content">
-    
                 <h1 class="page-title">Games</h1>
                 <hr>
-                <div class="grid-list" id="game-list">
-                </div>
-    
+                <div class="grid-list" id="game-list"></div>
             </div>
         </section>
 
         <section class="page page-backdrop" id="project">
             <div class="page-content">
-    
                 <h1 class="page-title">Projects</h1>
                 <hr>
-                <div class="grid-list" id="project-list">
-                </div>
-    
+                <div class="grid-list" id="project-list"></div>
             </div>
         </section>
 
         <section class="page page-backdrop" id="art">
             <div class="page-content">
-    
                 <h1 class="page-title">Arts</h1>
                 <hr>
-                <div class="grid-list" id="art-list">
-                </div>
-    
+                <div class="grid-list" id="art-list"></div>
             </div>
         </section>
 
         <section class="page page-backdrop" id="yt">
             <div class="page-content">
-    
                 <h1 class="page-title">YouTube</h1>
                 <hr>
-                <div class="grid-list" id="yt-list">
-                </div>
-    
+                <div class="grid-list" id="yt-list"></div>
             </div>
         </section>
+    </main>
 
-    </div>
-
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/app.js"></script>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/lightbox.js"></script>
-<script src="js/app.js"></script>
 </html>

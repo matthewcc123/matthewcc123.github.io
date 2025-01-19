@@ -393,13 +393,6 @@ $(document).ready(function() {
         CloseWindow();
     });
 
-    /*
-    window.onclick = function (event) {
-        if (event.target.contains(contentWindow) && event.target !== contentWindow) {
-            CloseWindow();
-        }
-    }*/
-
     var gameItems = document.querySelectorAll("#game-item");
 
     gameItems.forEach((item, index) => {
